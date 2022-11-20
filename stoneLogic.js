@@ -23,7 +23,6 @@ function decreaseRocks(a){
         }
     }
     if(a == 2){
-        console.log("work");
         pile2--;
         whoTookLast = "Player";
         update(a);
@@ -49,7 +48,6 @@ function decreaseRocks(a){
 
 function goblintake(){
     num = parseInt(Math.random() * 2) + 1
-    console.log(num)
     return num; 
 }
 
