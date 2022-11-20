@@ -21,3 +21,8 @@ button{
     display: none;
     text-align: center;
 }
+
+#gob{
+    display: flex;
+    justify-content: center;
+}
