@@ -22,7 +22,6 @@ function decreaseRocks(a){
             whoTookLast = "Goblin";
             update(a);
         }
-        console.log(pile1);
     }
     if(a == 2){
         console.log("work");
@@ -34,7 +33,6 @@ function decreaseRocks(a){
             whoTookLast = "Goblin";
             update(a);
         }
-        console.log(pile2);
     }
     if(a == 3){
         pile3--;
