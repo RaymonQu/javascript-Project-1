@@ -20,7 +20,6 @@ function decreaseRocks(a){
         if(!pile1Gone){
             pile1 -= goblintake();
             whoTookLast = "Goblin";
-            update(a);
         }
     }
     if(a == 2){
@@ -31,7 +30,6 @@ function decreaseRocks(a){
         if(!pile2Gone){
             pile2 -= goblintake();
             whoTookLast = "Goblin";
-            update(a);
         }
     }
     if(a == 3){
@@ -41,9 +39,9 @@ function decreaseRocks(a){
         if(!pile3Gone){
             pile3 -= goblintake();
             whoTookLast = "Goblin";
-            update(a);
         }
     }
+    update(a);
     if(pile1Gone && pile2Gone && pile3Gone){
         end();
     }
