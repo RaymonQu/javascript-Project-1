@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>goblinmode</title>
+    <link rel="stylesheet" href="stoneStyle.css">
+</head>
+<script src="stoneLogic.js"></script>
+<body onload="initialize()">
+    <h1>Goblin Game</h1>
+    <p>Rules: Each pile has three rocks, who ever takes the last rock in the last pile loses. The goblin will take a random amount of rocks each time you take a rock!</p>
+    <div class="buttons">
+        <button id="button1" onclick="decreaseRocks(1)">Take a rock from this pile</button>
+        <button id="button2" onclick="decreaseRocks(2)">Take a rock from this pile</button>
+        <button id="button3" onclick="decreaseRocks(3)">Take a rock from this pile</button>
+    </div>
+    <div class="reset">
+        <button id="reset" onclick="resetPiles()">Reset</button>
+    </div>
+    <div id="winOrLose">
+        <p>nothing here</p>
+    </div>
+</body>
+</html>

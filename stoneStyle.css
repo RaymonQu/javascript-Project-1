@@ -1,0 +1,23 @@
+h1, p{
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    padding: 10px;
+    margin: 10px;
+}
+
+.reset{
+    display: flex;
+    justify-content: center;
+}
+
+#winOrLose{
+    display: none;
+    text-align: center;
+}
